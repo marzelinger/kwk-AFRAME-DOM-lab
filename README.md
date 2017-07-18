@@ -3,7 +3,7 @@
 When you live preview your html file you should see the head of a robot appear on your screen. Unfortunately, our robot can't actually move yet, something that will be your job to fix.
 
 1. When you click on the face of the robot, have both eyes turn yellow to signal that the robot is on.
-2. When you click on either of the antennas make the antenna that you clicked on spin and turn purple
+2. When you click on either of the antennae, make the antenna that you clicked on spin and turn purple
 3. Clicking on the mouth of the robot should make it speak to you. Have the text with id "hello" appear above the robots head that says "Hi my name is ____" with your chosen robot name
 4. Add three spheres around the robot head, one red, one yellow, and one green. 
     * clicking on the red sphere should turn your bot "evil". It is up do you what this means. Some possible suggestions are turning the eyes red, the mouth black and making the text "mwuhaha I'm an evil robot" appear

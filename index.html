@@ -7,7 +7,7 @@
   <body>
     <a-scene>
         <a-asset>
-        
+        <img id = "background" src = "lab.jpg">
         </a-asset>
         <a-text visible = false id = "hello" value = "Hi, my name is _____" color = "red" position = "-1 2.5 -3"></a-text>
         
@@ -20,10 +20,10 @@
         <a-sphere id = "rightEye" color = "dodgerblue" position = ".4 1.4 -5.24" radius = ".3"></a-sphere>
         <a-sphere id = "rightPupil" color = "black" position = ".4 1.4 -5" radius = ".1"></a-sphere>
         
-        <a-box id = "mouth" color ="white" width = "1.5" height = ".3" depth = ".4" position = "0 .6 -5.2"></a-box>
+        <a-box id = "mouth" color ="white" width = "1.5" height = ".3" depth = ".4" position = "0 .6 -5"></a-box>
     
-    <a-sky></a-sky>
-    <!--add in sky image tm morning-->
+    <a-sky src = "#background"></a-sky>
+    <!--add in sky image tm morning -->
     
     <a-camera>
         <a-cursor></a-cursor>

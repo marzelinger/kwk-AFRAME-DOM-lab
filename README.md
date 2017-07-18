@@ -1,5 +1,5 @@
 # Who runs the world? Robots.
-## (most likely girl robots)
+## (most likely female ones)
 When you live preview your html file you should see the head of a robot appear on your screen. Unfortunately, our robot can't actually move yet, something that will be your job to fix.
 
 1. When you click on the face of the robot, have both eyes turn yellow to signal that the robot is on.
